@@ -1,1 +1,1 @@
-# business-blog-card
+# Business Blog Card
