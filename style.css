@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container--main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #111729 1px solid;
+    border-radius: 16px;
+    height: 500px;
+    width: 402px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.container img {
+    border-radius: 15px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+svg {
+    width: 400px;
+    position: absolute;
+    top: 208px;
+    left: 0;
+    z-index: 1;
+}
+
+.container__text {
+    padding: 0 20px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #111729;
+    margin-bottom: 10px;
+}
+
+.container__text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #111729;
+    margin-bottom: 20px;
+}
+
+.container__footer {
+    border-top: black 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    width: 400px;
+    height: 90px;
+}
+
+.container__footer--image {
+    background-color: #677489;
+    margin-left: 20px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__footer--image img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.container__footer--text {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container__footer--text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #111729;
+}
+
+.container__footer--text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #111729;
+    margin-bottom: 5px;
+}
